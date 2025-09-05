@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130981486129",
+    "project_id": "food-fif",
+    "storage_bucket": "food-fif.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130981486129:android:85ae31f186c07cbf06bf10",
+        "android_client_info": {
+          "package_name": "com.example.food_chifa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXgTmuMD4AZ4NWLM10ZbeiMLNTNu0DyeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
