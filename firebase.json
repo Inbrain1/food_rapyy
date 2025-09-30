@@ -1,1 +1,43 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"food-fif","appId":"1:130981486129:android:85ae31f186c07cbf06bf10","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"food-fif","appId":"1:130981486129:ios:dd05c62251342c9106bf10","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"food-fif","configurations":{"android":"1:130981486129:android:85ae31f186c07cbf06bf10","ios":"1:130981486129:ios:dd05c62251342c9106bf10","web":"1:130981486129:web:96970a7644e1d05606bf10"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "food-fif",
+          "appId": "1:130981486129:android:85ae31f186c07cbf06bf10",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "food-fif",
+          "appId": "1:130981486129:ios:dd05c62251342c9106bf10",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "food-fif",
+          "configurations": {
+            "android": "1:130981486129:android:85ae31f186c07cbf06bf10",
+            "ios": "1:130981486129:ios:dd05c62251342c9106bf10",
+            "web": "1:130981486129:web:96970a7644e1d05606bf10"
+          }
+        }
+      }
+    }
+  },
+
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }],
+    "headers": [
+      {
+        "source": "**/*.@(js|css|png|jpg|svg|ico|json|wasm)",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      }
+    ]
+  }
+}
